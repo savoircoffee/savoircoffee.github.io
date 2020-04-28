@@ -1,0 +1,1 @@
+To run project in terminal type "npm start"
