@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "browser-sync start --server --files='**/*'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "html-includes --src src --dest dist"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/savoircoffee/savoircoffee.github.io/issues"
   },
-  "homepage": "https://github.com/savoircoffee/savoircoffee.github.io#readme"
+  "homepage": "https://github.com/savoircoffee/savoircoffee.github.io#readme",
+  "devDependencies": {
+    "html-includes": "^4.2.0"
+  }
 }
